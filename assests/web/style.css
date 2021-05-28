@@ -18,7 +18,7 @@ a{
 
 body > section.home{
   background:url(https://github.com/mahtamun-hoque-fahim/change/blob/main/assests/media/background%20for%20pt.png);
-  background-color: #421802;
+ /* background-color: #421802; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position:top;
