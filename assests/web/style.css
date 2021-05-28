@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins' , 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  outline: none;
+}
+body{
+  background-color: var(--dark-blue);
+  color: #ffffff;
+}
+a{
+  text-decoration: none;
+}
+/* ===========================home section ==========================================-*/
+
+
+body > section.home{
+  background:url(/assests/media/background\ for\ pt.png);
+  background-color: #421802;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:top;
+  background-size: cover;
+  transition: 1s;
+}
+body > section.home > div.home-texts{
+  padding: 40vh;
+  padding-left: 4vw;
+  padding-right: 0;
+  width: 40%;
+  background: #0000009d;
+}
+body > section.home > div.home-texts > h1{
+  font-size: 100px;
+  transition: 1.5s;
+}
+body > section.home > div.home-texts > h3{
+  transition:.5s;
+}
+
+body > section.home > div.home-texts > h3#i-am{
+  font-size: 30px;
+  transition: 1.5s;
+}
+
+
+/* =========================about me section ==========================================-*/
+
+
+
+body > section.about-me {
+  text-align: center;
+  padding: 10vh 20vw;
+  transition: 3.5s;
+  background-color: #421802;
+}
+body > section.about-me > h2{
+  padding-bottom: 3vh;
+}
+body > section.about-me > p {
+  font-size: 20px;
+}
+body > section.about-me > hr {
+  margin: 0 20vw;
+}
+body > section.about-me > div.empty {
+  height: 5vh;
+}
+body > section.about-me > div.space{
+  height: 5vh;
+}
+
+
+
+/* -============================= my love(s) section ==========================================*/
+
+
+body > section.i-can-use {
+  text-align: center;
+  padding: 10vh 20vw;
+  transition: 3.5s;
+  background-color: #eeeeee;
+  color: #421802;
+
+}
+body > section.i-can-use > h2{
+  padding-bottom: 3vh;
+}
+body > section.i-can-use > hr {
+  margin: 0 20vw;
+  color: #421802;
+}
+body > section.i-can-use > div.empty {
+  height: 5vh;
+}
+body > section.i-can-use > div.icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+body > section.i-can-use > div.icons > div.icon{
+  padding: 2vh;
+  font-size: 30px;
+  transition: .3s ease-out;
+  cursor: pointer;
+}
+body > section.i-can-use > div.icons > div.icon:hover{
+  border-radius: 20px;
+  background-color: #dddddd;
+  border-bottom: 1px solid #421802;
+}
+
+
+
+/* -============================= contact section -========================================== */
+
+
+body > section.wanna-talk {
+  background-color:#421802;
+  padding: 10vh 20vw;
+  text-align: center;
+}
+body > section.wanna-talk > h2{
+  padding-bottom: 3vh;
+  text-align: center;
+}
+body > section.wanna-talk > hr {
+  margin: 0 20vw;
+}
+body > section.wanna-talk > div.empty {
+  height: 5vh;
+}
+body > section.wanna-talk > div.all-input{
+  background-color: #dddddd;
+  border-radius: 30px;
+  padding: 5vh 5vw;
+  color: #421802;
+}
+body > section.wanna-talk > div.all-input > form > div.input{
+  padding: 1.5vh;
+}
+body > section.wanna-talk > div.all-input > form > div.input > input#name , input#mail{
+  border: 0;
+  border-radius: 50px;
+  outline: none;
+  width: 20vw;
+  padding: 1.5vh 2.5vw;
+}
+body > section.wanna-talk > div.all-input > form > div.input > textarea#text{
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 20vw;
+  height: 20vh;
+  padding: 2vh 3vw;
+}
+body > section.wanna-talk > div.all-input > form > div.send{
+  padding-top: 3vh;
+}
+body > section.wanna-talk > div.all-input > form > div.send > button{
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 2.5vh 0;
+  width: 20vw;
+  color: #ffffff;
+  background-color: #421802;
+  transition: ease-out 0.3s;
+}
+
+
+/* =====================social icons section =================== */
+
+
+body > section.social {
+  padding: 10vh 20vw;
+  color: #421802;
+}
+body > section.social > p{
+  text-align: center;
+}
+body > section.social > h2{
+  padding-bottom: 3vh;
+  text-align: center;
+}
+body > section.social > hr {
+  margin: 0 20vw;
+}
+body > section.social > div.icons{
+  display: flex;
+  padding: 5vh 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(285.12deg, #361502 8.76%, #9b5834 133.39%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 1s ease-out;
+  font-family: 'Poppins';
+}
+body > section.social > div.icons:hover{
+  background: #361502;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body > section.social > div.icons > a > div.icon{
+  padding: 0 2vw;
+  font-size: 30px;
+}
+body > section.social > div.mail{
+  padding-bottom:10vh;
+  text-align: center;
+}
+body > section.social > div.mail > a > button{
+  background:#361502;
+  border: none;
+  border-radius: 10px;
+  color:#ffffff;
+  font-weight: bolder;
+  padding: 2.5vh 10vw;
+  cursor: pointer;
+}
+
+
+
+
+
+/*  
+                          =======================
+                          ===  media query!   ===
+                          =======================
+*/
+
+@media only screen and (max-width: 600px) {
+  body > section.home{
+    background-position: 40%;
+  }
+
+  body > section.home > div.home-texts{
+    padding: 25vh;
+    padding-left: 10vw;
+    padding-right: 0;
+    background-color: #0000009d;
+    width: 40vw;
+  }
+  body > section.home > div.home-texts > h1{
+    font-size: 55px;
+  }
+  body > section.home > div.home-texts > h3#i-am{
+    font-size: 20px;
+  }
+
+  /* about me section ===============================================*/
+
+  body > section.about-me {
+    padding: 5vh 10vw;
+  }
+  body > section.about-me > hr {
+    margin: 0 25vw;
+  }
+
+  /* my love(s) section =========================================== */
+
+
+  body > section.i-can-use > hr {
+    margin: 0 2vw;
+    color: white;
+  }
+
+  /* contact section ========================================== */
+  
+  body > section.wanna-talk > hr {
+    margin: 0 10vw;
+  }
+  body > section.wanna-talk > div.all-input{
+    border-radius: 30px;
+    width: 50vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: none;
+  }
+  body > section.wanna-talk > div.all-input > form > div.input{
+    padding: 1.5vh;
+  }
+  body > section.wanna-talk > div.all-input > form > div.input > input#name , input#mail{
+    border: 0;
+    border-radius: 20px;
+    padding: 1.5vh 3vw;
+    width: 28vw;
+    outline: none;
+    box-shadow: none;
+  }
+  body > section.wanna-talk > div.all-input > form > div.input > textarea#text{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 30vw;
+    height: 20vh;
+    padding: 2vh 3vw;
+  }
+  body > section.wanna-talk > div.all-input > form > div.send{
+    padding-top: 3vh;
+  }
+  body > section.wanna-talk > div.all-input > form > div.send > button{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 1.5vh 0;
+    width: 30vw;
+    transition: ease-out 0.3s;
+  }
+
+  /* social icons section ==========================================*/
+
+  body > section.social > h2{
+   font-size: 20px;
+   font-weight: 1000;
+  }
+  body > section.social > hr {
+    margin: 0 5vw;
+    color: #ffffff;
+  }
+  body > section.social > div.icons > a > div.icon{
+    padding: 0 2vw;
+    font-size: 28px;
+  }
+  body > section.social > div.mail{
+    padding-bottom:10vh;
+  }
+  body > section.social > div.mail > fieldset > a > div.mail-text:hover{
+    font-size: 20px;
+  
+  }
+  body > section.social > div.mail > a > button{
+    padding: 2.5vh 15vw;
+    border-radius: 10px;
+  }
+  
+
+
+}
