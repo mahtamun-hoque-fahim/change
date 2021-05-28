@@ -8,7 +8,6 @@
   outline: none;
 }
 body{
-  background-color: var(--dark-blue);
   color: #ffffff;
 }
 a{
@@ -268,7 +267,7 @@ body > section.social > div.mail > a > button{
 
   body > section.i-can-use > hr {
     margin: 0 2vw;
-    color: white;
+    color:#ffffff;
   }
 
   /* contact section ========================================== */
